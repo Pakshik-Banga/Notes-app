@@ -1,0 +1,51 @@
+
+
+.note{
+    padding: 25px;
+    height: 280px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    border-radius: 30px;
+}
+
+.note:hover{
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.note_text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+
+}
+
+
+.note_footer{
+    display: flex;
+     justify-content: space-between;
+     margin-top: 5px;
+}
+
+.custom-scroll::-webkit-scrollbar{
+  
+    display: none;
+}
+
+.delete-icon{
+      
+    cursor: pointer;
+     height: 25px;
+     transition: transform 1s ease-in-out;
+}
+
+.delete-icon:hover{
+    transform: rotate(360deg);
+}
+
+

@@ -1,0 +1,16 @@
+
+.iosearch{
+     height:20px;
+     width: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_input{
+      width: 97%;
+      height: 25px;
+}
